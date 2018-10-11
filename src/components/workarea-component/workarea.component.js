@@ -6,7 +6,6 @@ const Workarea = (props) => {
     let selectedBoard = props.boards.filter((board) => {
         return board.id === props.selectedBoardId;
     })[0];
-    console.log(selectedBoard[0]);
     return (
         <React.Fragment>
             {selectedBoard.columns.map(
