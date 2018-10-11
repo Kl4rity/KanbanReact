@@ -5,8 +5,13 @@ const Column = (props)=>{
 
     return (
         <React.Fragment>
-            <h3>{props.title}</h3>
-            {props.cards.map((card)=>{return <Card {...card} key={card.id}/>})}
+            <div className = "col s4 m4 l4">
+                <h4 className="center-align">{props.title}</h4>
+                {props.cards.map(
+                    (card)=>{
+                        return <Card {...card} key={card.id}/>
+                    })}
+            </div>
         </React.Fragment>
     )
 }

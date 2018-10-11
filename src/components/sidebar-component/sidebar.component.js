@@ -7,7 +7,6 @@ class Sidebar extends Component {
 
     componentDidMount() {
         M.Sidenav.init(this.sidenav);
-        console.log(this.sidenav);
     }
 
     constructor(props) {
@@ -33,7 +32,7 @@ class Sidebar extends Component {
                 </ul>
 
                 {/* TODO! Make this button appear only when the sidebar is gone. */}
-                <a href="#" data-target="slide-out" className="sidenav-trigger"><i className="material-icons">menu</i></a>
+                {/* <a href="#" data-target="slide-out" className="sidenav-trigger"><i className="material-icons">menu</i></a> */}
             </React.Fragment>
         );
     };

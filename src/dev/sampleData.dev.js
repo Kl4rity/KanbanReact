@@ -259,7 +259,8 @@ const initialData = {
     "title" : "Organisational"
   } ],
   "appState" : {
-    "selectedBoardId": "766218377"
+    "selectedBoardId": "766218377",
+    "visibleBoardsStartIndex": "0"
   }
 };
 
